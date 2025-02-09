@@ -19,14 +19,14 @@ const ToDoList = () => {
 
   return (
     <div className="todo-container">
-      {/* Add Task Button */}
+      
       <div className="task-button-container">
         <button className="add-task-button" onClick={() => setShowForm(true)}>
           Add Task
         </button>
       </div>
 
-      {/* Form for New Task */}
+      
       {showForm && (
         <div className="task-form">
           <h2 className="form-title">New Task</h2>
@@ -39,7 +39,7 @@ const ToDoList = () => {
         </div>
       )}
 
-      {/* Task List */}
+      
       <div className="task-list">
         {tasks.length === 0 ? (
           <p className="no-task-message">No tasks added yet.</p>
