@@ -1,4 +1,4 @@
-/* Styles for the entire to-do list container */
+
 .todo-container {
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
   padding: 20px;
 }
 
-/* Styles for the Add Task button container */
+
 .task-button-container {
   width: 100%;
   display: flex;
@@ -16,7 +16,7 @@
   margin-bottom: 20px;
 }
 
-/* Styles for the Add Task button */
+
 .add-task-button {
   background-color: #007bff;
   color: white;
@@ -33,7 +33,7 @@
   background-color: #0056b3;
 }
 
-/* Styles for the task form */
+
 .task-form {
   width: 350px;
   background-color: white;
@@ -43,7 +43,7 @@
   border: 1px solid #ccc;
 }
 
-/* Form title styling */
+
 .form-title {
   font-size: 20px;
   font-weight: bold;
@@ -59,7 +59,7 @@
   gap: 10px;
 }
 
-/* Styles for input fields */
+
 .form-input,
 .form-textarea {
   width: 100%;
@@ -70,13 +70,13 @@
   outline: none;
 }
 
-/* Styles for the text area */
+
 .form-textarea {
   height: 80px;
   resize: none;
 }
 
-/* Styles for the submit button */
+
 .submit-task-button {
   background-color: #28a745;
   color: white;
@@ -92,7 +92,7 @@
   background-color: #06e937;
 }
 
-/* Styles for the task list */
+
 .task-list {
   width: 100%;
   display: flex;
@@ -101,14 +101,14 @@
   margin-top: 20px;
 }
 
-/* Message when no tasks are added */
+
 .no-task-message {
   color: #666;
   font-size: 16px;
   text-align: center;
 }
 
-/* Styles for each task box */
+
 .task-box {
   width: 350px;
   background-color: white;
@@ -119,14 +119,14 @@
   margin-bottom: 15px;
 }
 
-/* Task title styling */
+
 .task-title {
   font-size: 18px;
   font-weight: bold;
   color: #007bff;
 }
 
-/* Styling for task details */
+
 .task-heading {
   font-size: 16px;
   font-weight: bold;
